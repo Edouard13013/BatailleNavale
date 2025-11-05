@@ -1,0 +1,71 @@
+# ---------------------------
+# Environnement virtuel Python
+# ---------------------------
+venv/
+.env/
+env/
+.venv/
+*.py[cod]         # fichiers compilés Python (.pyc, .pyo)
+__pycache__/      # dossier cache Python
+
+# ---------------------------
+# IDE / éditeur
+# ---------------------------
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# ---------------------------
+# Logs et fichiers temporaires
+# ---------------------------
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# ---------------------------
+# Distribution / packaging
+# ---------------------------
+dist/
+build/
+*.egg-info/
+.eggs/
+*.whl
+pip-wheel-metadata/
+
+# ---------------------------
+# Tests / coverage
+# ---------------------------
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+.__pycache__
+*.py[cod]
+.cache/
+coverage.xml
+*.cover
+nosetests.xml
+test-results.xml
+
+# ---------------------------
+# Jupyter Notebook
+# ---------------------------
+.ipynb_checkpoints/
+
+# ---------------------------
+# Environnements / variables
+# ---------------------------
+.envrc
+.env.local
+*.env
+
+# ---------------------------
+# Autres fichiers à ignorer
+# ---------------------------
+*.DS_Store        # macOS
+Thumbs.db         # Windows
